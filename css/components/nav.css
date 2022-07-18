@@ -27,6 +27,11 @@
     border-radius: 0px 14px 0px 0px;
 }
 .nav__btn i {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
 }
 .nav-icon {
@@ -35,11 +40,25 @@
     height: 100%;
     justify-content: center;
     align-items: center;
+    transition: 0.3s ease;
 }
 .nav__btn:hover {
-    background-color: #d8e6fb;
+    background-color: rgb(30, 87, 180);
+}
+.nav-icon :hover {
+    animation: turn 1.5s ease-in-out infinite;
 }
 .nav-icon__img {
     width: 25px;
     height: 25px;
+}
+
+@keyframes turn {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+        /* transform: rotate(180deg); */
+    }
 }
