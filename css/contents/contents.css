@@ -1,0 +1,55 @@
+@import "./about-me.css";
+@import "./education.css";
+@import "./skills.css";
+@import "./careers.css";
+@import "./initialscreen.css";
+
+.content {
+    position: relative;
+    width: 100vw;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    color: var(--blue);
+}
+
+.content-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+.content-title {
+    margin-top: 14%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.content-img {
+    height: 330px;
+    background-size: cover;
+}
+.content-list {
+    position: absolute;
+    bottom: 0%;
+    width: 85%;
+    height: 40%;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgba(102, 174, 255, 0.2);
+    border-radius: 15px;
+}
+.content-list__item {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+}
+.content--list-title {
+    font-size: 25px;
+}

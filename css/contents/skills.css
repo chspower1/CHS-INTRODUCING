@@ -1,0 +1,23 @@
+.skills-body {
+    height: 160vh;
+}
+#double {
+    margin: 50px 0px;
+    display: flex;
+    flex-direction: column;
+}
+#double .content {
+    height: 80vh;
+}
+.design {
+    background-color: rgb(245, 250, 255);
+}
+.content-list__title {
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+}
+
+#double .content-list {
+    padding-bottom: 0px;
+}

@@ -1,0 +1,37 @@
+.initial-bg {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.initial-title {
+    font-size: 25px;
+    color: white;
+}
+
+.initial-btn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 10%;
+    width: 200px;
+    height: 38px;
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+    font-size: 19px;
+    color: var(--blue);
+    transition: 0.3s ease-out;
+}
+
+.initial-btn:hover {
+    cursor: pointer;
+    width: 210px;
+    height: 40px;
+    font-size: 21px;
+    font-weight: bold;
+}

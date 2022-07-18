@@ -1,0 +1,12 @@
+@import "reset.css";
+@import "variables.css";
+@import "./font/font.css";
+@import "./contents/contents.css";
+@import "./components/componenets.css";
+@import "./no-mobile.css";
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
